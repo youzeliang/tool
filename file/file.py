@@ -17,7 +17,7 @@ def find_str():
         # 遍历每一行
         for line in lines:
             # 如果行中包含特定的字符串，则打印该行并跳过不添加到新文件内容列表中
-            if '优化' in line.lower():
+            if 'json' in line.lower():
                 # 打开网站
                 https_index = line.find("https")
                 if https_index != -1:
